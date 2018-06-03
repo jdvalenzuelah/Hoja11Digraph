@@ -5,6 +5,21 @@
 # Alexis Hengsterberg		#17966
 
 # Importamos las funciones del grafo
-#from graph_python import *
+from graph_python import *
 
-opcion = raw_input(" 1. Calcular la ruta mas cercana\n 2.Calcular el centro del grafo\n 3. Agregar\n 4. Salir")
+opcion = raw_input(" 1. Calcular la ruta mas cercana\n 2. Calcular el centro del grafo\n 3. Agregar\n 4. Salir")
+
+# Ciclo para recorrer el menu
+while(opcion != 4):
+	# Opcion 1
+	if(opcion == 1):
+		# Funcion para la ruta mas cercana
+		ruta()
+	if(opcion == 2):
+		# Funcion para calcular el centro del grafo
+		centro()
+	if(opcion == 3):
+		ciudad_uno = raw_input("Ingrese la ciudad de origen: ")
+		ciudad_dos = raw_input("Ingrese la ciudad de destino: ")
+		km = input("Ingrese los kilometros de las ciudades: ")
+		agregar(ciudad_uno, ciudad_dos, km)
