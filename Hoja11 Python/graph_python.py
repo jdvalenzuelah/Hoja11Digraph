@@ -45,7 +45,7 @@ def ruta_cercana():
 		ciudad_secundario = raw_input("Ingrese la ciudad destino final: ")
 
 	try:
-        dato1 = path[0][ciudad_principal][ciudad_secundario]
+        #dato1 = path[0][ciudad_principal][ciudad_secundario]
         ciudades = []
         ciudades.append(dato1)
 
