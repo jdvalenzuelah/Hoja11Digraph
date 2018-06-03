@@ -8,7 +8,7 @@
 from graph_python import *
 
 print(" 1. Calcular la ruta mas cercana\n 2. Calcular el centro del grafo\n 3. Agregar\n 4. Salir")
-opcion = input("Que desea hacer?")
+opcion = input("Que desea hacer? ")
 # Ciclo para recorrer el menu
 while(opcion != 4):
 	# Opcion 1

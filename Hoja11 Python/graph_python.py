@@ -41,7 +41,6 @@ def centro():
 
 	# Ciclo para recorrer el archivo 
 	for lineas in contenido:
-
 		string = lineas.split(",")
 		# Agregamos datos al nodo del grafo
 		grafo.add_node(string[0])
@@ -57,5 +56,5 @@ def agregar(ciudad_uno, ciudad_dos, km):
 	archivo.write(ciudad_uno + "," + ciudad_dos + "," + str(km) + "\n")
 	archivo.close()
 
-    
+
 	
