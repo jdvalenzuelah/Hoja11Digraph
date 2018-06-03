@@ -1,5 +1,7 @@
 /**
- * @author daval
+ * @author David Valenzuela	#171001
+ * @author Marcos Gutierrez #17909
+ * @author Alexis Hengstenberg #17699
  *
  * @param <V>
  * @param <E>

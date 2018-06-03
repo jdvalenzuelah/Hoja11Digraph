@@ -1,0 +1,13 @@
+Guatemala:Zacapa:179
+Guatemala:Chiquimula:172
+Guatemala:Peten:413
+Guatemala:Coban:212
+Guatemala:Izabal:247
+Guatemala:Sanarate:59.2
+Guatemala:San Marcos:268
+Guatemala:Antigua Guatemala:38.7
+Guatemala:Mazatenango:159
+Guatemala:Huehuetenango:217
+Guatemala:Atitlan:124
+Guatemala:Guatemala:400
+Guatemala:Escuintla:347
